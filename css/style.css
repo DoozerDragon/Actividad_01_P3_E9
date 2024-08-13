@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+.menu {
+    background-color: #a3d8d1;
+    padding: 10px;
+}
+
+.icono-menu {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #ff4d4d;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.contenedor-formulario {
+    background-color: #7e57c2;
+    padding: 20px;
+    display: none; /* Ocultar formulario por defecto */
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #607d8b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #455a64;
+}

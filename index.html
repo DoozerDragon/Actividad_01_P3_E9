@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar y Ocultar Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="icono-menu" onclick="toggleFormulario()">
+            &#9776; <!-- Ícono del Menú -->
+        </div>
+        <div id="formularioIngreso" class="contenedor-formulario">
+            <form>
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo"><br><br>
+                <label for="contrasena">Contraseña:</label><br>
+                <input type="password" id="contrasena" name="contrasena"><br><br>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
